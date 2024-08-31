@@ -21,12 +21,17 @@ using namespace std;
 
 int main()
 {
-	double gallons = 15;
-	double miles = 375;
+	double gallons;
+	double miles;
+
+	cout << "How many gallons does your car hold?"<<endl;
+	cin >> gallons;
+	cout << "How many miles can you travel before refilling?"<<endl;
+	cin >> miles;
 
 	double MilesPerGallon = miles / gallons;
 
-	cout << "The car gets " << MilesPerGallon << " MPG.";
+	cout << "Your car gets " << MilesPerGallon << " MPG."<<endl;
 
 
 
