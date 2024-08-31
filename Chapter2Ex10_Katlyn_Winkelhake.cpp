@@ -16,11 +16,19 @@ that the user can enter the number of gallons and the miles driven.
 */
 
 #include <iostream>
+using namespace std;
+
 
 int main()
 {
+	double gallons = 15;
+	double miles = 375;
+
+	double MilesPerGallon = miles / gallons;
+
+	cout << "The car gets " << MilesPerGallon << " MPG.";
 
 
 
-
+	return 0;
 }
